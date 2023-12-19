@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gabrielgimenes92/finance_planner.git"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gabrielgimenes92/finance_planner/issues"
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.0.1"
   },
-  "homepage": "https://github.com/gabrielgimenes92/finance_planner#readme"
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1"
+  }
 }
